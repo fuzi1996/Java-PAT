@@ -1,13 +1,12 @@
 package cn.pintia;
 /**
  * 1090
+ * 第三第四测试点数据量很大，要么超时，要么内存超限
  */
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-
-import javax.xml.transform.Templates;
 
 public class PAT_1090 {
 
@@ -61,8 +60,6 @@ public class PAT_1090 {
 				ArrayList<String> temp = map.get(strings[i]);
 				for(int ii = i+1;ii<strings.length;ii++){
 						for(int iii=0;iii<temp.size();iii++){
-							String temp_1 = temp.get(iii);
-							String temp_2 = strings[ii];
 							if (temp.get(iii).equals(strings[ii])) {
 								result = "No";
 							}

@@ -1,8 +1,9 @@
 package cn.pintia;
 /**
  * 1088
+ * 第四条测试点 48 11 2
  */
-import java.util.ArrayList;
+
 import java.util.Scanner;
 
 public class PAT_1088 {
@@ -14,19 +15,23 @@ public class PAT_1088 {
 		int you = Integer.parseInt(strings[0]);
 		int X = Integer.parseInt(strings[1]);
 		int Y = Integer.parseInt(strings[2]);
-		XYZ xyz = new XYZ(0,0,0);
+		int xx = 0;
+		int yy = 0;
+		double zz = 0;
 		for(int i = 10;i<100;i++){
 			int y = getResolveI(i);
-			double z = Math.abs(i - y) / X;
+			double z = Math.abs(i - y) / (X*1.0);
 			
 			if ((z*Y) == y) {
-				xyz.set(i,y,z);
+				xx=i;
+				yy=y;
+				zz=z;
 			}
 		}
-		if (xyz.getX() == 0) {
+		if (xx == 0) {
 			System.out.println("No Solution");
 		}else {
-			System.out.println(xyz.getX()+" "+getReturnStr(you, xyz.getX())+" "+getReturnStr(you, xyz.getY())+" "+getReturnStr(you, xyz.getZ()));
+			System.out.println(xx+" "+getReturnStr(you, xx)+" "+getReturnStr(you, yy)+" "+getReturnStr(you, zz));
 		}
 	}
 	public static int getResolveI(int i){
@@ -59,26 +64,5 @@ public class PAT_1088 {
 	}
 
 }
-class XYZ{
-	int X,Y;
-	double Z;
-	public XYZ(int X,int Y,double Z){
-		this.X = X;
-		this.Y = Y;
-		this.Z = Z;
-	}
-	public void set(int X,int Y,double Z){
-		this.X = X;
-		this.Y = Y;
-		this.Z = Z;
-	}
-	public int getX() {
-		return X;
-	}
-	public int getY() {
-		return Y;
-	}
-	public double getZ() {
-		return Z;
-	}
-}
+
+

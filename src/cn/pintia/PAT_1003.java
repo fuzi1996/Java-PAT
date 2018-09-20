@@ -1,5 +1,7 @@
 package cn.pintia;
-
+/**
+ * 未完成
+ */
 import java.util.Scanner;
 
 public class PAT_1003 {
@@ -28,7 +30,7 @@ public class PAT_1003 {
 				boolean at = true;
 				for(char c:cs){
 					if(c == 'A'){
-						if()
+//						if()
 						flag2++;
 					}else if(c == 'T'){
 						if (flag1 == 1) {

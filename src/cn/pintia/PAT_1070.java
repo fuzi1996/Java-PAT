@@ -1,5 +1,7 @@
 package cn.pintia;
-
+/**
+ * 测试点2，3，4超时
+ */
 import java.util.Scanner;
 
 public class PAT_1070 {

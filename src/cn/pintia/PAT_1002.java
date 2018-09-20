@@ -1,9 +1,4 @@
 package cn.pintia;
-
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
-
 /**
  * 1002
  * map声明即初始化
@@ -11,6 +6,11 @@ import java.util.Scanner;
  * @author 11829
  *
  */
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+
 public class PAT_1002 {
 
 	public static void main(String[] args) {

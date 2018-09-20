@@ -1,12 +1,12 @@
 package cn.pintia;
-
-import java.util.Scanner;
-
 /**
  * 1001
  * @author 11829
  *
  */
+import java.util.Scanner;
+
+
 public class PAT_1001 {
 
 	public static void main(String[] args) {

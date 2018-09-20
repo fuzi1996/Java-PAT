@@ -20,9 +20,9 @@ public class PAT_1085 {
 		Scanner scanner = new Scanner(System.in);
 		int n = Integer.parseInt(scanner.nextLine());
 		int index = 0;
-		//�洢ѧУ��Ϣ
+		
 		List<School> schoolList = new ArrayList<>();
-		//�洢ѧУ��list����λ��
+		
 //		Map<String,Integer> nameMap = new HashMap<>();
 		while (index<n) {
 			int temp=0;

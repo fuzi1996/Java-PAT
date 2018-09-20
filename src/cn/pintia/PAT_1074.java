@@ -26,14 +26,14 @@ public class PAT_1074 {
 		int num = plusCharArray.length > plusCharArray2.length ? plusCharArray2.length:plusCharArray.length;
 		int numBigger = plusCharArray.length < plusCharArray2.length ? plusCharArray2.length:plusCharArray.length;
 		int carryBit = 0;
-		//��λ
+	
 		while(plusIntArray.size() != numBigger) {
 			plusIntArray.add(0);
 		}
 		while (plusIntArray2.size() != numBigger) {
 			plusIntArray2.add(0);
 		}
-		//�ӷ�����
+		
 		int i = 0;
 		for(;i<numBigger;i++)
 		{
@@ -46,7 +46,7 @@ public class PAT_1074 {
 				sumIntArray.add(sumtemp%hexIntArray.get(i));
 			}
 		}
-		//nλ+nλ=(n+1)λ��������λ
+		
 		while (carryBit!=0) {
 			if (numBigger<hexIntArray.size()) {
 				int sumtemp = carryBit;
@@ -64,7 +64,7 @@ public class PAT_1074 {
 			}
 			i++;
 		}
-		//������ȫΪ0�����
+		
 		int n = sumIntArray.size();
 		for(int ii=n-1;ii>0;ii--)
 		{

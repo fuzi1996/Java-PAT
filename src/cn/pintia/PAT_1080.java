@@ -1,15 +1,4 @@
 package cn.pintia;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Scanner;
-
 /**
  * 1080
  * 这道题有以下几个注意点：
@@ -21,6 +10,17 @@ import java.util.Scanner;
  * @author 11829
  *
  */
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Scanner;
+
+
 
 public class PAT_1080 {
 

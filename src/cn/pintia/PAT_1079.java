@@ -58,7 +58,7 @@ public class PAT_1079 {
 	}
 	public static boolean isPalindrome(String num)
 	{
-		//equalsIgnoreCase() ���Դ�Сд
+		//equalsIgnoreCase() 
 		return new StringBuffer(num).reverse().toString().equalsIgnoreCase(num);
 	}
 

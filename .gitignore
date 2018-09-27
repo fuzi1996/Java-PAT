@@ -1,7 +1,0 @@
-.gitignore
-.settings/
-.bin/
-.classpath
-.project
-/src/cn/pintia/Test.java
-*.class
